@@ -16,7 +16,7 @@ export class DataService {
     return this.http.get('https://jsonplaceholder.typicode.com/users/' + userId);
   }
 
-  getUsers1() {
-    return this.http.get('https://jsonplaceholder.typicode.com/users');
+  getPosts() {
+    return this.http.get('https://jsonplaceholder.typicode.com/posts');
   }
 }
